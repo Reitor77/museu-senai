@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav img{
+    margin-left: 10px;
+    height: 80px;
+}
+
+ul{
+    margin-left: 50px;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+    color: white;
+}
+
+.banner{
+    background-image: url('imagens/banner.png');
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner h1{
+    text-align: center;
+}
+
+.banner p{
+    text-align: center;
+    font-weight: 700;
+    width: 600px;
+}
+
+.banner button{
+    background-color: gray;
+    color: white;
+    margin-top: 10px;
+    border: transparent;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.banner button:hover{
+    scale: 1.2;
+}
+
+.carrossel{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.282);
+    padding: 50px;
+}
+
+.carrossel h1{
+    margin-bottom: 30px;
+}
+
+section{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.roda{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    padding: 2px;
+    font-weight: lighter;
+}
